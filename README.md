@@ -11,3 +11,4 @@ TO-DO:
   - [ ] Link to feature request etc
   - [ ] Documentation about the project status (not open-source, image available)
 - [ ] Public roadmap document
+- [ ] Pin an issue in the official portainer repository with a link to this repo
