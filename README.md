@@ -10,5 +10,6 @@ TO-DO:
   - [ ] Link to bug report
   - [ ] Link to feature request etc
   - [ ] Documentation about the project status (not open-source, image available)
+  - [ ] Supported k8s versions
 - [ ] Public roadmap document
 - [ ] Pin an issue in the official portainer repository with a link to this repo
