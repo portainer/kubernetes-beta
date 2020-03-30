@@ -1,10 +1,12 @@
 # Portainer for Kubernetes BETA
 
-This repository is dedicated to community feedback around the Portainer for Kubernetes BETA version.
+This repository has been specifically created to capture the community feedback around Portainer for Kubernetes BETA version.
 
-This version of Portainer allows you to manage one or multiple Kubernetes cluster through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment.
+This "point in time" version of Portainer allows you to manage one or more Kubernetes cluster(s) through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment. In this special build, we have removed all Docker Standalone and Docker Swarm management functionality, so as to focus solely on obtaining feedback on Kubernetes features. This is ONLY FOR THIS BETA BUILD. The release version of Portainer (2.0) will include support for Docker Standalone, Docker Swarm AND Kubernetes, within the one instance.
 
-The entire purpose of this version is to gather feedback from the Portainer user community. It will not have any new release or patch (unless critical). More information available in the BETA status section below.
+The entire purpose of this BETA is to gather feedback from the Portainer user community. It will not have any new release or patches (unless critical), and this standalone version will be removed post BETA. 
+
+More information is available below.
 
 # How can I deploy it?
 
@@ -14,11 +16,12 @@ Be wary that this a BETA version and as such, might contain some bugs. **It is n
 
 Helm chart should be available soon.
 
-Have an issue with the deployment of this version inside your Kubernetes cluster? Please comment on the [deployment topic]()
+IF you have an issue with the deployment of this version inside your Kubernetes cluster? Please comment on the [deployment topic]()
 
 # Feedback
 
-Have some feedback about the BETA version of Portainer for Kubernetes? We're welcoming all the feedback regarding everything Portainer and Kubernetes.
+If you have feedback, postive or negative, about the BETA version of Portainer for Kubernetes, we welcome this with open arms. 
+We are building to a product usability principle of KISS (Keep it Simple), so the UI/UX will remain as uncluttered as possible and with as little Kubernetes Jargon as possible. For this reason, feedback will be viewed through the lens of "how can we add that whilst remaining true to our priciples".
 
 To make it simpler for everyone to provide and follow feedback, we have created a [list of topics]() around different areas that you can comment about.
 
@@ -48,13 +51,13 @@ Currently tested against the following Kubernetes versions:
 
 **NOTE**: This version has not been tested against Kubernetes 1.18 yet.
 
-Have some feedback regarding the deployment of the BETA version on a specific provider/platform? Have succesfully deployed the BETA version inside a specific cluster provider? Comment in one of our [platform related topics]() or open a new [feedback request]().
+We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know. Comment in one of our [platform related topics]() or open a new [feedback request]().
 
 # BETA status
 
 This version of Portainer will be open to feedback between the first of April 2020 until the 30 of April 2020.
 
-Our plan is to merge support for Kubernetes inside the Portainer CE version around June 2020 to offer support for Docker Swarm, Docker standalone and Kubernetes in the same Portainer version.
+Our plan is to merge support for Kubernetes inside the Portainer CE version 2.0 around June 2020.
 
 # Roadmap
 
@@ -62,8 +65,7 @@ More information about our plan to support Kubernetes inside Portainer in the [K
 
 # Why is it not open-source? (rephrase)
 
-TBD
-This version of Portainer is closed source...
+Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an opensource license. Expect to see this code merged into Portainer CE and released as such.
 
 # TO-DO
 
