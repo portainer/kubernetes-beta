@@ -24,7 +24,7 @@ Want to report a bug with? Use the following [bug report template] to report it.
 
 Would you like to report a feature/enhancement request and did not found any topic to comment in? Use the [following enhancement request template]().
 
-We also have a generic [feedback template] for any feedback that would not fit into the categories specified above.
+We also have a generic [feedback template]() for any feedback that would not fit into the categories specified above.
 
 # Supported platforms and Kubernetes versions
 
