@@ -6,6 +6,8 @@ This repository is dedicated to user feedback around the Portainer for Kubernete
 
 Depending on your Kubernetes cluster provider, follow the instructions available in the [kubernetes manifests repository](https://github.com/portainer/portainer-k8s).
 
+Be wary that this a Beta version and as such, might contain some bugs. It is not recommended to deploy this version in a production environment.
+
 Helm chart should be available soon.
 
 # Feedback
@@ -14,7 +16,25 @@ TBD
 
 # Supported platforms and Kubernetes versions
 
-TBD
+This version of Portainer has been succesfully deployed inside the following cloud provider Kubernetes clusters:
+
+* DigitalOcean
+* Azure AKS
+
+It has also been succesfully deployed through the following local cluster providers:
+
+* minikube
+* kind
+
+Currently tested against the following Kubernetes versions:
+
+* 1.15.7
+* 1.16.2
+* 1.17.4
+
+**NOTE**: This version has not been tested against version 1.18 yet.
+
+Have some feedback regarding the deployment of the Beta version on a specific provider/platform? Have a look at our [platform related topics]() or open a new [feedback request](). 
 
 # Beta status
 
@@ -23,9 +43,9 @@ Beta available from... to... plan is to...
 
 # Roadmap
 
-More information on our plans to support Kubernetes inside Portainer in the [Kubernetes roadmap](https://github.com/portainer/kubernetes-roadmap/projects/1)
+More information on our plans to support Kubernetes inside Portainer in the [Kubernetes roadmap](https://github.com/portainer/kubernetes-roadmap/projects/1).
 
-# Why is it not open-source?
+# Why is it not open-source? (rephrase)
 
 TBD
 This version of Portainer is closed source...
@@ -40,5 +60,4 @@ This version of Portainer is closed source...
   - [ ] Documentation about the project status (not open-source, image available) Answer to why not open-source?
   - [ ] Supported k8s versions
   - [ ] Supported platforms (linux amd64), requests for other platforms open
-- [ ] Public roadmap document
-- [ ] Pin an issue in the official portainer repository with a link to this repo
+- [x] Public roadmap document
