@@ -68,7 +68,9 @@ Our plan is to merge support for Kubernetes inside the Portainer version 2.0 aro
 
 # Roadmap
 
-More information about our plan to support Kubernetes inside Portainer in the [Kubernetes roadmap](https://github.com/portainer/kubernetes-roadmap/projects/1).
+More information about our plan to support Kubernetes inside Portainer in our [Kubernetes roadmap](https://github.com/portainer/kubernetes-roadmap/projects/1).
+
+Feel free to contribute in there too !
 
 # Why is it not open-source?
 
