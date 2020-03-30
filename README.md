@@ -12,5 +12,6 @@ TO-DO:
   - [ ] Documentation about the project status (not open-source, image available)
   - [ ] Supported k8s versions
   - [ ] Supported platforms (linux amd64), requests for other platforms open
+  - [ ] Why not open-source?
 - [ ] Public roadmap document
 - [ ] Pin an issue in the official portainer repository with a link to this repo
