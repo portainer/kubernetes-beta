@@ -64,7 +64,7 @@ You can comment in one of our [platform related topics](https://github.com/porta
 
 This version of Portainer will be open to feedback between the first of April 2020 until the 30 of April 2020.
 
-Our plan is to merge support for Kubernetes inside the Portainer CE version 2.0 around June 2020.
+Our plan is to merge support for Kubernetes inside the Portainer version 2.0 around June 2020.
 
 # Roadmap
 
