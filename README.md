@@ -14,13 +14,15 @@ Be wary that this a BETA version and as such, might contain some bugs. **It is n
 
 Helm chart should be available soon.
 
+Have an issue with the deployment of this version inside your Kubernetes cluster? Please comment on the [deployment topic]()
+
 # Feedback
 
 Have some feedback about the BETA version of Portainer for Kubernetes? We're welcoming all the feedback regarding everything Portainer and Kubernetes.
 
 To make it simpler for everyone to provide and follow feedback, we have created a [list of topics]() around different areas that you can comment about.
 
-Want to report a bug with? Use the following [bug report template] to report it.
+Want to report a bug with? Use the following [bug report template]() to report it.
 
 Would you like to report a feature/enhancement request and did not found any topic to comment in? Use the [following enhancement request template]().
 
