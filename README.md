@@ -4,21 +4,27 @@ This repository is dedicated to community feedback around the Portainer for Kube
 
 This version of Portainer allows you to manage one or multiple Kubernetes cluster through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment.
 
-The entire purpose of this version is to gather feedback from the Portainer user community. It will not have any new release or patch (unless critical). More information available in the Beta status section below.
+The entire purpose of this version is to gather feedback from the Portainer user community. It will not have any new release or patch (unless critical). More information available in the BETA status section below.
 
 # How can I deploy it?
 
 Depending on your Kubernetes cluster provider, follow the instructions available in the [kubernetes manifests repository](https://github.com/portainer/portainer-k8s).
 
-Be wary that this a Beta version and as such, might contain some bugs. **It is not recommended to deploy this version in a production environment.**
+Be wary that this a BETA version and as such, might contain some bugs. **It is not recommended to deploy this version in a production environment.**
 
 Helm chart should be available soon.
 
 # Feedback
 
-How to give feedback?
+Have some feedback about the BETA version of Portainer for Kubernetes? We're welcoming all the feedback regarding everything Portainer and Kubernetes.
 
-TBD
+To make it simpler for everyone to provide and follow feedback, we have created a [list of topics]() around different areas that you can comment about.
+
+Want to report a bug with? Use the following [bug report template] to report it.
+
+Would you like to report a feature/enhancement request and did not found any topic to comment in? Use the [following enhancement request template]().
+
+We also have a generic [feedback template] for any feedback that would not fit into the categories specified above.
 
 # Supported platforms and Kubernetes versions
 
@@ -40,9 +46,9 @@ Currently tested against the following Kubernetes versions:
 
 **NOTE**: This version has not been tested against Kubernetes 1.18 yet.
 
-Have some feedback regarding the deployment of the Beta version on a specific provider/platform? Have succesfully deployed the beta version inside a specific cluster provider? Comment in one of our [platform related topics]() or open a new [feedback request]().
+Have some feedback regarding the deployment of the BETA version on a specific provider/platform? Have succesfully deployed the BETA version inside a specific cluster provider? Comment in one of our [platform related topics]() or open a new [feedback request]().
 
-# Beta status
+# BETA status
 
 This version of Portainer will be open to feedback between the first of April 2020 until the 30 of April 2020.
 
