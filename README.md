@@ -30,11 +30,11 @@ We are building to a product usability principle of KISS (Keep it Simple), so th
 
 To make it simpler for everyone to provide and follow feedback, we have created a [list of topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D) around different areas that you can comment about.
 
-Want to report a bug with? Use the following [bug report template]() to report it.
+Want to report a bug with? Use the following [bug report template](https://github.com/portainer/kubernetes-beta/issues/new?template=bug_report.md) to report it.
 
-Would you like to report a feature/enhancement request and did not found any topic to comment in? Use the [following enhancement request template]().
+Would you like to report a feature/enhancement request and did not found any topic to comment in? Use the [following enhancement request template](https://github.com/portainer/kubernetes-beta/issues/new?template=feature_request.md).
 
-We also have a generic [feedback template]() for any feedback that would not fit into the categories specified above.
+We also have a generic [feedback template](https://github.com/portainer/kubernetes-beta/issues/new?template=custom.md) for any feedback that would not fit into the categories specified above.
 
 You can also [join us on Slack](https://join.slack.com/t/portainer/shared_invite/enQtNDk3ODQ5MjI2MjI4LTcwNGYxMWQ5OGViYWZkNDY2ZjY4YTMwMTgzYmU4YmNiOTU0MDcxYmJjNTIyYmQ0MTM5Y2QwNTg3NzNkMTk5MDg) to discuss it in our #kubernetes-beta channel.  
 
@@ -60,7 +60,7 @@ Currently tested against the following Kubernetes versions:
 
 We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know.
 
-You can comment in one of our [platform related topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D+label%3Atopic%2Fplatform) or open a new [feedback request]().
+You can comment in one of our [platform related topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D+label%3Atopic%2Fplatform) or open a new [feedback request](https://github.com/portainer/kubernetes-beta/issues/new?template=custom.md).
 
 # BETA status
 
