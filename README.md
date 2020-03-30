@@ -36,6 +36,8 @@ Would you like to report a feature/enhancement request and did not found any top
 
 We also have a generic [feedback template]() for any feedback that would not fit into the categories specified above.
 
+You can also [join us on Slack](https://join.slack.com/t/portainer/shared_invite/enQtNDk3ODQ5MjI2MjI4LTcwNGYxMWQ5OGViYWZkNDY2ZjY4YTMwMTgzYmU4YmNiOTU0MDcxYmJjNTIyYmQ0MTM5Y2QwNTg3NzNkMTk5MDg) to discuss it in our #kubernetes-beta channel.  
+
 # Supported platforms and Kubernetes versions
 
 This version of Portainer has been succesfully deployed inside the following cloud provider Kubernetes clusters:
