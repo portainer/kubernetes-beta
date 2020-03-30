@@ -1,16 +1,22 @@
 # Portainer for Kubernetes BETA
 
-This repository is dedicated to user feedback around the Portainer for Kubernetes BETA version.
+This repository is dedicated to community feedback around the Portainer for Kubernetes BETA version.
+
+This version of Portainer allows you to manage one or multiple Kubernetes cluster through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment.
+
+The entire purpose of this version is to gather feedback from the Portainer user community. It will not have any new release or patch (unless critical). More information available in the Beta status section below.
 
 # How can I deploy it?
 
 Depending on your Kubernetes cluster provider, follow the instructions available in the [kubernetes manifests repository](https://github.com/portainer/portainer-k8s).
 
-Be wary that this a Beta version and as such, might contain some bugs. It is not recommended to deploy this version in a production environment.
+Be wary that this a Beta version and as such, might contain some bugs. **It is not recommended to deploy this version in a production environment.**
 
 Helm chart should be available soon.
 
 # Feedback
+
+How to give feedback?
 
 TBD
 
@@ -32,14 +38,15 @@ Currently tested against the following Kubernetes versions:
 * 1.16.2
 * 1.17.4
 
-**NOTE**: This version has not been tested against version 1.18 yet.
+**NOTE**: This version has not been tested against Kubernetes 1.18 yet.
 
-Have some feedback regarding the deployment of the Beta version on a specific provider/platform? Have a look at our [platform related topics]() or open a new [feedback request](). 
+Have some feedback regarding the deployment of the Beta version on a specific provider/platform? Have succesfully deployed the beta version inside a specific cluster provider? Comment in one of our [platform related topics]() or open a new [feedback request]().
 
 # Beta status
 
-TBD
-Beta available from... to... plan is to...
+This version of Portainer will be open to feedback between the first of April 2020 until the 30 of April 2020.
+
+Our plan is to merge support for Kubernetes inside the Portainer CE version around June 2020 to offer support for Docker Swarm, Docker standalone and Kubernetes in the same Portainer version.
 
 # Roadmap
 
@@ -58,6 +65,6 @@ This version of Portainer is closed source...
   - [ ] Link to bug report
   - [ ] Link to feature request etc
   - [ ] Documentation about the project status (not open-source, image available) Answer to why not open-source?
-  - [ ] Supported k8s versions
-  - [ ] Supported platforms (linux amd64), requests for other platforms open
+  - [x] Supported k8s versions
+  - [x] Supported platforms (linux amd64), requests for other platforms open
 - [x] Public roadmap document
