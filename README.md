@@ -56,7 +56,9 @@ Currently tested against the following Kubernetes versions:
 
 **NOTE**: This version has not been tested against Kubernetes 1.18 yet.
 
-We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know. Comment in one of our [platform related topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D+label%3Atopic%2Fplatform) or open a new [feedback request]().
+We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know.
+
+You can comment in one of our [platform related topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D+label%3Atopic%2Fplatform) or open a new [feedback request]().
 
 # BETA status
 
