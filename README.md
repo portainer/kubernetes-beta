@@ -74,4 +74,6 @@ Feel free to contribute in there too !
 
 # Why is it not open-source?
 
-Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an open-source license. Expect to see this code merged into Portainer CE and released as such.
+Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an open-source license.
+
+Expect to see this code merged into Portainer CE and released as such.
