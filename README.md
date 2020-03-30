@@ -2,7 +2,9 @@
 
 This repository has been specifically created to capture the community feedback around Portainer for Kubernetes BETA version.
 
-This "point in time" version of Portainer allows you to manage one or more Kubernetes cluster(s) through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment. In this special build, we have removed all Docker Standalone and Docker Swarm management functionality, so as to focus solely on obtaining feedback on Kubernetes features. This is ONLY FOR THIS BETA BUILD. The release version of Portainer (2.0) will include support for Docker Standalone, Docker Swarm AND Kubernetes, within the one instance.
+This "point in time" version of Portainer allows you to manage one or more Kubernetes cluster(s) through the familiar Portainer experience. Its primary goal is to make it simpler for any user to deploy and troubleshoot their applications inside a Kubernetes environment. In this special build, we have removed all Docker Standalone and Docker Swarm management functionality, so as to focus solely on obtaining feedback on Kubernetes features. This is ONLY FOR THIS BETA BUILD. 
+
+The release version of Portainer (2.0) will include support for Docker Standalone, Docker Swarm AND Kubernetes, within the one instance.
 
 The entire purpose of this BETA is to gather feedback from the Portainer user community. It will not have any new release or patches (unless critical), and this standalone version will be removed post BETA. 
 
