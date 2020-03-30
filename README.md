@@ -20,7 +20,7 @@ Be wary that this a BETA version and as such, might contain some bugs. **It is n
 
 Helm chart should be available soon.
 
-IF you have an issue with the deployment of this version inside your Kubernetes cluster? Please comment on the [deployment topic]()
+IF you have an issue with the deployment of this version inside your Kubernetes cluster? Please comment on the [deployment topic](https://github.com/portainer/kubernetes-beta/issues/1).
 
 # Feedback
 
@@ -28,7 +28,7 @@ If you have feedback, postive or negative, about the BETA version of Portainer f
 
 We are building to a product usability principle of KISS (Keep it Simple), so the UI/UX will remain as uncluttered as possible and with as little Kubernetes jargon as possible. For this reason, feedback will be viewed through the lens of "how can we add that whilst remaining true to our principles".
 
-To make it simpler for everyone to provide and follow feedback, we have created a [list of topics]() around different areas that you can comment about.
+To make it simpler for everyone to provide and follow feedback, we have created a [list of topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D) around different areas that you can comment about.
 
 Want to report a bug with? Use the following [bug report template]() to report it.
 
@@ -56,7 +56,7 @@ Currently tested against the following Kubernetes versions:
 
 **NOTE**: This version has not been tested against Kubernetes 1.18 yet.
 
-We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know. Comment in one of our [platform related topics]() or open a new [feedback request]().
+We would really value input on "known good" deployments, so we can expand this list above in conjunction with our users. If you have deployed Portainer successfully, and validated all features/functions work well, please let us know. Comment in one of our [platform related topics](https://github.com/portainer/kubernetes-beta/issues?q=is%3Aissue+is%3Aopen+%5BTOPIC%5D+label%3Atopic%2Fplatform) or open a new [feedback request]().
 
 # BETA status
 
@@ -71,15 +71,3 @@ More information about our plan to support Kubernetes inside Portainer in the [K
 # Why is it not open-source?
 
 Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an opensource license. Expect to see this code merged into Portainer CE and released as such.
-
-# TO-DO
-
-- [ ] Issue templates (bug report, feedback/feature request, to be determined)
-- [ ] Better README
-  - [x] Link to useful documentations/install links etc
-  - [ ] Link to bug report
-  - [ ] Link to feature request etc
-  - [ ] Documentation about the project status (not open-source, image available) Answer to why not open-source?
-  - [x] Supported k8s versions
-  - [x] Supported platforms (linux amd64), requests for other platforms open
-- [x] Public roadmap document
