@@ -6,7 +6,7 @@ This "point in time" version of Portainer allows you to manage one or more Kuber
 
 In this special build, we have removed all Docker Standalone and Docker Swarm management functionality, so as to focus solely on obtaining feedback on Kubernetes features. This is **ONLY FOR THIS BETA** build.
 
-The release version of Portainer (2.0) will include support for Docker Standalone, Docker Swarm AND Kubernetes, within the one instance.
+The release version of Portainer CE (2.0) will include support for Docker Standalone, Docker Swarm AND Kubernetes, within the one instance.
 
 The entire purpose of this BETA is to gather feedback from the Portainer user community. It will not have any new release or patches (unless critical), and this standalone version will be removed post BETA.
 
@@ -64,7 +64,7 @@ You can comment in one of our [platform related topics](https://github.com/porta
 
 This version of Portainer will be open to feedback between the first of April 2020 until the 30 of April 2020.
 
-Our plan is to merge support for Kubernetes inside the Portainer version 2.0 around June 2020.
+Our plan is to merge support for Kubernetes inside the Portainer CE version 2.0 around June 2020.
 
 # Roadmap
 
@@ -74,4 +74,4 @@ Feel free to contribute in there too !
 
 # Why is it not open-source?
 
-Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an opensource license. Expect to see this code merged into Portainer CE and released as such.
+Right now we are focussed on obtaing feedback on the UI/UX and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an open-source license. Expect to see this code merged into Portainer CE and released as such.
