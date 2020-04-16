@@ -76,11 +76,11 @@ Feel free to contribute in there too!
 
 ## Why do I need to reconfigure Portainer each time it is restarted?
 
-In this current stage, we do not provide an easy way to persist Portainer data via your cluster storage. If you wish to do so, you need to manually edit the deployment instructions to persist the `/data` container folder.
+In the BETA, we have not configured Portainer to persist its configuration. This is, in part, to discourage its use in Production environments. However, if you wish to persist the data, you need to manually edit the deployment instructions to persist the `/data` container folder.
 
-## Why am I not seeing all the stuff running inside my cluster in the Applications list?
+## Why am I not seeing all the deployed applications running inside my cluster in the Applications list?
 
-In this current stage, Applications will only display the following Kubernetes workloads: **Deployments**, **StatefulSets** and **DaemonSets**.
+In this current BETA, Applications will only display the following Kubernetes workloads: **Deployments**, **StatefulSets** and **DaemonSets**.
 
 We'll add support for isolated pods in a future version.
 
