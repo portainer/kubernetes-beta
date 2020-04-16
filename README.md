@@ -10,7 +10,7 @@ The release version of Portainer CE (2.0) will include support for Docker Standa
 
 The entire purpose of this BETA is to gather feedback from the Portainer user community. It will not have any new releases or patches (unless critical), and this BETA version will be removed post BETA.
 
-More information is available below.
+Be sure to read the FAQ section below for current known limitations and other sections for more information.
 
 # How can I deploy it?
 
@@ -72,7 +72,19 @@ More information about our plan to support Kubernetes inside Portainer in our [K
 
 Feel free to contribute in there too!
 
-# Why is it not open-source?
+# FAQ
+
+## Why do I need to reconfigure Portainer each time it is restarted?
+
+In this current stage, we do not provide an easy way to persist Portainer data via your cluster storage. If you wish to do so, you need to manually edit the deployment instructions to persist the `/data` container folder.
+
+## Why am I not seeing all the stuff running inside my cluster in the Applications list?
+
+In this current stage, Applications will only display the following Kubernetes workloads: **Deployments**, **StatefulSets** and **DaemonSets**.
+
+We'll add support for isolated pods in a future version.
+
+## Why is it not open-source?
 
 Right now we are focussed on obtaining feedback on the UX/UI and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an open-source license.
 
