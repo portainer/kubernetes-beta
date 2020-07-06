@@ -82,10 +82,4 @@ In the BETA, we have not configured Portainer to persist its configuration. This
 
 In this current BETA, Applications will only display the following Kubernetes workloads: **Deployments**, **StatefulSets** and **DaemonSets**.
 
-We'll add support for isolated pods in a future version.
-
-## Why is it not open-source?
-
-Right now we are focussed on obtaining feedback on the UX/UI and features/functions we have created, and as the code is still BETA we will not be releasing to the general public under an open-source license.
-
-Expect to see this code merged into Portainer CE and released as such.
+We'll add support for isolated pods in a future version, see https://github.com/portainer/portainer/issues/4011
